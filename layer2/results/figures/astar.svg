@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800px" height="800px" xmlns="http://www.w3.org/2000/svg" version="1.1" >
+	<rect x="0" y="0" width="800" height="800" fill="rgb(255,255,255)" stroke-width="2" stroke="rgb(0,0,0)" />
+	<rect x="400" y="320" width="80" height="80" fill="rgb(220,220,220)" stroke-width="1" stroke="rgb(220,220,220)" />
+	<rect x="400" y="400" width="80" height="80" fill="rgb(220,220,220)" stroke-width="1" stroke="rgb(220,220,220)" />
+	<rect x="400" y="480" width="80" height="80" fill="rgb(220,220,220)" stroke-width="1" stroke="rgb(220,220,220)" />
+	<rect x="400" y="560" width="80" height="80" fill="rgb(220,220,220)" stroke-width="1" stroke="rgb(220,220,220)" />
+	<rect x="400" y="640" width="80" height="80" fill="rgb(220,220,220)" stroke-width="1" stroke="rgb(220,220,220)" />
+	<rect x="400" y="720" width="80" height="80" fill="rgb(220,220,220)" stroke-width="1" stroke="rgb(220,220,220)" />
+	<circle cx="640" cy="640" r="8" fill="rgb(0,128,0)" stroke-width="1" stroke="rgb(0,128,0)" />
+	<circle cx="160" cy="640" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="160,640 184,640 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="160,640 240,560 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="240,560 240,480 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="240,480 240,400 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="240,400 240,320 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="240,320 320,240 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="320,240 400,160 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="400,160 480,160 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="480,160 560,240 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="560,240 640,320 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="640,320 640,400 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="640,400 640,480 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="640,480 640,560 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="640,560 640,640 " fill="none" stroke-width="1" stroke="rgb(255,0,0)" />
+	<polyline points="160,640 240.18,555.818 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="240.18" cy="555.818" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="240.18,555.818 238.042,531.914 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="240.18,555.818 239.838,476.147 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="239.838" cy="476.147" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="239.838,476.147 242.253,452.269 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="239.838,476.147 252.027,399.652 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="252.027" cy="399.652" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="252.027,399.652 254.681,375.799 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="252.027,399.652 244.99,313.978 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="244.99" cy="313.978" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="244.99,313.978 235.883,291.772 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="244.99,313.978 320.33,248.182 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="320.33" cy="248.182" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="320.33,248.182 343.035,255.959 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="320.33,248.182 409.923,177.693 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="409.923" cy="177.693" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="409.923,177.693 416.343,154.567 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="409.923,177.693 488.895,161.456 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="488.895" cy="161.456" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="488.895,161.456 503.243,180.695 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="488.895,161.456 549.351,246.163 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="549.351" cy="246.163" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="549.351,246.163 568.012,261.254 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="549.351,246.163 645.366,318.769 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="645.366" cy="318.769" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="645.366,318.769 664.758,332.908 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="645.366,318.769 624.528,403.363 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="624.528" cy="403.363" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="624.528,403.363 602.63,413.184 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="624.528,403.363 622.747,480.578 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="622.747" cy="480.578" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="622.747,480.578 643.574,492.503 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="622.747,480.578 647.341,569.337 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="647.341" cy="569.337" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="647.341,569.337 635.642,590.292 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+	<polyline points="647.341,569.337 631.058,636.462 " fill="none" stroke-width="1" stroke="rgb(0,0,0)" />
+	<circle cx="631.058" cy="636.462" r="8" fill="rgb(0,0,255)" stroke-width="1" stroke="rgb(0,0,255)" />
+	<polyline points="631.058,636.462 635.373,660.071 " fill="none" stroke-width="3" stroke="rgb(0,0,0)" />
+</svg>

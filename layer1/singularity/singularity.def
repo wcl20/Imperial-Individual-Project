@@ -1,0 +1,42 @@
+Bootstrap: library
+From: airl_lab/default/airl_env:base_ci
+
+
+%labels
+    Author wcl16@imperial.ac.uk
+    Version v0.0.1
+
+%files
+    ./resources/setup.sh /git/sferes2
+
+%post
+   apt-get update
+   DEBIAN_FRONTEND=noninteractive apt-get install -y python3-tk
+   export LD_LIBRARY_PATH="/workspace/lib:$LD_LIBRARY_PATH"
+   cd /git/sferes2/exp/
+   mkdir layer1
+
+   # more code can come here
+   # ...
+   # ...
+   #====================================================================================================
+   exit 0 #NOTFORFINAL - the lines below this "exit" will be executed only when building the final image
+   #====================================================================================================
+   git clone --recurse-submodules https://gitlab.doc.ic.ac.uk/AIRL/students_projects/2019-2020/alvis_lee/layer1.git ./layer1
+   cd ../
+   ./setup.sh
+
+%runscript
+    CURPATH=$(pwd)
+    if [ ! -d ./results ]; then
+        mkdir results
+    fi
+    cd /git/sferes2/
+    # running the experiment (the -d option allows to define the directory where the results should be stored
+    PATHNAME=$(date +%Y-%m-%d_%H_%M_%S)_$$
+    mkdir $CURPATH/results/$PATHNAME
+    build/exp/layer1/example -d $CURPATH/results/$PATHNAME
+
+
+%help
+    This is the development and running environment of the leg 1 experiment.

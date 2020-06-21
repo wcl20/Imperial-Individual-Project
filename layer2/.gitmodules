@@ -1,0 +1,6 @@
+[submodule "submodules/singulartiy_scripts"]
+	path = submodules/singulartiy_scripts
+	url = ../../../../AIRL_tools/singularity_scripts
+[submodule "submodules/singularity_scripts"]
+	path = submodules/singularity_scripts
+	url = ../../../../AIRL_tools/singularity_scripts

@@ -1,0 +1,51 @@
+Bootstrap: library
+From: airl_lab/default/airl_env:base_ci
+
+
+%labels
+    Author wcl16@imperial.ac.uk
+    Version v0.0.1
+
+%files
+    ./resources/setup.sh /git/sferes2
+
+%post
+   apt-get update
+   DEBIAN_FRONTEND=noninteractive apt-get install -y python3-tk
+   export LD_LIBRARY_PATH="/workspace/lib:$LD_LIBRARY_PATH"
+
+   # Install Limbo
+   cd /git
+   git clone https://github.com/resibots/limbo.git
+
+   # Install MCTS
+   cd /git
+   git clone https://gitlab.doc.ic.ac.uk/AIRL/students_projects/2019-2020/alvis_lee/mcts.git
+   cd mcts
+   ./waf configure --prefix /workspace
+   ./waf install
+
+   cd /git/sferes2/exp/
+   mkdir layer2
+
+   #====================================================================================================
+   exit 0 #NOTFORFINAL - the lines below this "exit" will be executed only when building the final image
+   #====================================================================================================
+   git clone --recurse-submodules https://gitlab.doc.ic.ac.uk/AIRL/students_projects/2019-2020/alvis_lee/layer2.git ./layer2
+   cd ../
+   ./setup.sh
+
+%runscript
+    CURPATH=$(pwd)
+    if [ ! -d ./results ]; then
+        mkdir results
+    fi
+    cd /git/sferes2/
+    # running the experiment (the -d option allows to define the directory where the results should be stored
+    PATHNAME=$(date +%Y-%m-%d_%H_%M_%S)_$$
+    mkdir $CURPATH/results/$PATHNAME
+    build/exp/layer2/example -d $CURPATH/results/$PATHNAME
+
+
+%help
+    This is the development and running environment of the leg 1 experiment.
