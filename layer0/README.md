@@ -2,9 +2,15 @@
 Generates a repertoire for each leg.
 
 ## Setup
+Create Virtual Environment
+```bash
+cd scripts
+python3 -m venv ./venv
+```
 Start container
 ```bash
 cd singularity
+chmod +x start_container.sh
 ./start_container.sh
 ```
 Compile
@@ -12,13 +18,9 @@ Compile
 cd /git/sferes2/
 ./setup.sh
 ```
-Create Virtual Environment
-```bash
-cd exp/layer0/scripts
-python3 -m venv ./venv
-```
 Enter Virtual Environment
 ```bash
+cd exp/layer0/scripts
 source ./venv/bin/activate
 ```
 Install dependencies
