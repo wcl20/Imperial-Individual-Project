@@ -18,13 +18,6 @@ From: airl_lab/default/airl_env:base_ci
    cd /git
    git clone https://github.com/resibots/limbo.git
 
-   # Install MCTS
-   cd /git
-   git clone https://gitlab.doc.ic.ac.uk/AIRL/students_projects/2019-2020/alvis_lee/mcts.git
-   cd mcts
-   ./waf configure --prefix /workspace
-   ./waf install
-
    cd /git/sferes2/exp/
    mkdir layer2
 
