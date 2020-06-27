@@ -2,10 +2,23 @@
 Full controller.
 
 ## Setup
+Create Virtual Environment
+```bash
+cd scripts
+python3 -m venv ./venv
+```
 Start container
 ```bash
 cd singularity
 ./start_container.sh
+```
+Install MCTS
+```bash
+cd /git/sferes2/exp/layer2
+cp -r mcts /git
+cd /git/mcts
+./waf configure --prefix /workspace
+./waf install
 ```
 Compile
 ```bash
@@ -16,13 +29,9 @@ Visualize simulation
 ```bash
 build/exp/layer2/example_graphic
 ```
-Create Virtual Environment
-```bash
-cd exp/layer2/scripts
-python3 -m venv ./venv
-```
 Enter Virtual Environment
 ```bash
+cd exp/layer2/scripts
 source ./venv/bin/activate
 ```
 Install dependencies
